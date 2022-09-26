@@ -8,10 +8,6 @@
 
 <div align="center">
   <h3>
-    <a href="https://{https://devchallenges-notfound-adh.netlify.app/}">
-      Demo
-    </a>
-    <span> | </span>
     <a href="https://devchallenges-notfound-adh.netlify.app/">
       Solution
     </a>
