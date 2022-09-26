@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    padding: 1.5rem;
+    background: linear-gradient(200deg, #ffffff, #bc9ddb);
+}
+
+h1 {
+    margin-left: 3%;
+    font-family: 'Inconsolata', monospace;
+    font-size: 1.2rem;
+    text-transform: uppercase;
+}
+
+.not-found {
+    min-height: 90vh;
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.not-found__img {
+    width: 35%;
+    min-width: 275px;
+    padding: 3rem 0;
+    filter:drop-shadow(-1px 1px 2px rgb(41, 41, 41));
+}
+
+.not-found__info {
+    width: 50%;
+    max-width: 35rem;
+    font-family: 'Space Mono', monospace;
+}
+
+.not-found__info h2 {
+    max-width: 30rem;
+    margin-bottom: 2rem;
+    font-size: 3rem;
+    font-weight: 700;
+}
+.not-found__info p {
+    width: 51%;
+    margin-bottom: 3rem;
+    font-weight: 400;
+    font-size: 1.1rem;
+}
+.not-found__info button {
+    padding: 1.25rem 2rem;
+    border: none;
+    background: #333333;
+    border: 1px solid #333333;
+    color: #ffffff;
+    text-transform: uppercase;
+    font-size: 0.70rem;
+    cursor: pointer;
+}
+.not-found__info button:hover {
+    background: #d4bfe9;
+    color: #333333;
+}
+
+.footer {
+    margin-top: 10rem;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: .80rem;
+    text-align: center;
+    color: #888888;
+}
+.username a {
+    font-weight: 700;
+    color: #888888;
+}
+
+@media screen and (max-width:614px) {
+    body {
+        padding: .75rem;
+    }
+    .not-found__img {
+        width: 72%;
+    }
+    .not-found__info, .not-found__info p {
+        width: 100%;
+    }
+    .not-found__info h2 {
+        font-size: 2.5rem;
+    }
+    .not-found__info p {
+        font-size: 0.75;
+    }
+    .not-found__info button {
+        font-size: 0.70rem;
+    }
+}
